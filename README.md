@@ -3,12 +3,12 @@
 ## Preperation
 pip and anaconda were used for the installation
 
-Create virtual environment:
-*conda create — name testEnv python=3.7*
-*conda activate testEnv*
+Create virtual environment:   
+*conda create — name testEnv python=3.7*  
+*conda activate testEnv*  
 
-Install nbextensions:
-*conda install -c conda-forge jupyter_contrib_nbextensions*
+Install nbextensions:   
+*conda install -c conda-forge jupyter_contrib_nbextensions*  
 After the installation there will be a tab in the Jupyter Notebooks menu called nbextensions - here all extensions are listed
 
 Find the nbextensions folder:
