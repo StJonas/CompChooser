@@ -193,31 +193,6 @@ define([
         }, "200")
     };
 
-
-    // var parser = async function() {
-    //     const convertCSV = (data, delimiter = ',', omitFirstRow = false) =>
-    //         data
-    //         .slice(omitFirstRow ? data.indexOf('\n') + 1 : 0)
-    //         .split('\n')
-    //         .map(v => v.split(delimiter));
-
-    //     var new_data = "";
-    //     var res = [];
-
-    //     const response = fetch('python2.csv')
-    //         .then(response => response.text())
-    //         .then(v => new_data=convertCSV(v, ',', true))
-    //         .catch(err => console.log(err));
-
-    //     setTimeout(() => {
-    //         for (var date of new_data) {
-    //             res.push(date);
-    //         }
-    //         return res;
-    //         }, "500")
-    // };
-
-
     //Laden des Plugins
     var load_ipython_extension = function () {
         return IPython.notebook.config.loaded.then(initialize);

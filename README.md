@@ -22,7 +22,7 @@ The CSV file has to be put into the folder which is opened in Jupyter Notebooks
 ## Installation
 1. *conda activate testEnv*
 2. go to nbextensions folder
-3. *jupyter nbextension install compChooser --user*(two dashes)  
+3. *jupyter nbextension install compChooser --user* (two dashes)  
 4. *jupyter nbextension enable compChooser/main*
 
 ## Updating the Plugin
